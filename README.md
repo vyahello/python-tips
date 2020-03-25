@@ -16,15 +16,21 @@ _**Note**: please take into account that it is build for demo purpose but not fo
 - [django](https://www.djangoproject.com/) python web framework to use rest
 - [black](https://black.readthedocs.io/en/stable/) code formatter
 
-## Usage
+## Quick start
 
-### Installation
+### Build react app
+```bash
+npx create-react-app python-tips
+npm install axios
+npm install react-highlight-words
+npm start
+```
 
-### Quick start
+Then please open [localhost:3000](http://localhost:3000) endpoint.
 
-### Source code
+### Launch rest server
 
-**[⬆ back to top](#urequest)**
+**[⬆ back to top](#quick-start)**
 
 ### Meta
 
@@ -41,4 +47,4 @@ You can reach out me at:
 3. `pip install -r requirements.txt` to install all project dependencies
 4. `pip install -r requirements-dev.txt` to install all development project dependencies
 
-**[⬆ back to top](#urequest)**
+**[⬆ back to top](#quick-start)**
