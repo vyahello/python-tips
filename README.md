@@ -11,12 +11,17 @@
 _**Note**: please take into account that it is built for demo purpose but not for actual usage._
 
 ## Tools
-
-- [react](https://reactjs.org/) as javascript front-end library
-- [django](https://www.djangoproject.com/) python web framework to build rest
-- [black](https://black.readthedocs.io/en/stable/) code formatter
+- front-end
+  - [react](https://reactjs.org/) as javascript front-end library
+  - ECMAScript 6+ standard
+- back-end
+  - python 3.6+
+  - [django](https://www.djangoproject.com/) python web framework to build rest
+  - [black](https://black.readthedocs.io/en/stable/) code formatter
 
 ## Usage
+
+![Usage](usage.gif)
 
 ### Quick start
 
@@ -39,8 +44,6 @@ python rest/manage.py runserver
 ```
 Then please open [localhost:8000/api/](http://localhost:8000/api/) endpoint.
 
-**[⬆ back to top](#quick-start)**
-
 ### Meta
 
 Author – Volodymyr Yahello
@@ -53,7 +56,7 @@ You can reach out me at:
 ### Contributing
 1. clone the repository
 2. configure Git for the first time after cloning with your `name` and `email`
-3. `pip install -r rest/requirements.txt` to install all project dependencies
-4. `pip install -r rest/requirements-dev.txt` to install all development project dependencies
-
-**[⬆ back to top](#quick-start)**
+3. install `npm` package manager on your machine
+4. install `python 3.6+` on your machine
+5. `pip install -r rest/requirements.txt` to install all project dependencies
+6. `pip install -r rest/requirements-dev.txt` to install all development project dependencies
