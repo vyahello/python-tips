@@ -8,17 +8,19 @@
 >
 > It is built with **react** JS library and **django** web framework.
 
-_**Note**: please take into account that it is build for demo purpose but not for actual usage._
+_**Note**: please take into account that it is built for demo purpose but not for actual usage._
 
 ## Tools
 
 - [react](https://reactjs.org/) as javascript front-end library
-- [django](https://www.djangoproject.com/) python web framework to use rest
+- [django](https://www.djangoproject.com/) python web framework to build rest
 - [black](https://black.readthedocs.io/en/stable/) code formatter
 
-## Quick start
+## Usage
 
-### Build react app
+### Quick start
+
+#### Build react app
 ```bash
 npx create-react-app python-tips
 npm install axios
@@ -28,7 +30,14 @@ npm start
 
 Then please open [localhost:3000](http://localhost:3000) endpoint.
 
-### Launch rest server
+#### Launch django rest server
+```bash
+python rest/manage.py migrate
+python rest/manage.py createsuperuser
+python rest/manage.py sync_tips
+python rest/manage.py runserver
+```
+Then please open [localhost:8000/api/](http://localhost:8000/api/) endpoint.
 
 **[⬆ back to top](#quick-start)**
 
@@ -44,7 +53,7 @@ You can reach out me at:
 ### Contributing
 1. clone the repository
 2. configure Git for the first time after cloning with your `name` and `email`
-3. `pip install -r requirements.txt` to install all project dependencies
-4. `pip install -r requirements-dev.txt` to install all development project dependencies
+3. `pip install -r rest/requirements.txt` to install all project dependencies
+4. `pip install -r rest/requirements-dev.txt` to install all development project dependencies
 
 **[⬆ back to top](#quick-start)**

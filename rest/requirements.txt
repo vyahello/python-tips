@@ -1,0 +1,7 @@
+django
+djangorestframework
+bs4
+requests
+gunicorn
+psycopg2-binary
+django-cors-headers
