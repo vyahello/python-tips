@@ -12,7 +12,7 @@ _**Note**: please take into account that it is built for demo purpose but not fo
 
 ## Tools
 - front-end
-  - [react](https://reactjs.org/) as javascript front-end library
+  - [react](https://reactjs.org/) as javascript front-end library to build user interface
   - ECMAScript 6+ standard
 - back-end
   - python 3.6+
